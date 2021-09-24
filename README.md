@@ -1,27 +1,31 @@
 # TeamZephyr
-Code, documentation, and other files related to Team Zephyr's capstone project at UT Arlington, Fall 2021-Spring 2022.
+Code, documentation, and other files related to Team Zephyr's CSE 4316/4317 Computer System Design Project I/II senior capstone project at UT Arlington, Fall 2021-Spring 2022.
 
-The project, working title Wardriving Drone, is to create a sensor payload for a commercial drone that uses software-defined radio(s) (SDR) to gain information about an RF emitter. The information is then sent down to a base station that uses the information to triangulate the emitter's location and map that estimated location using GPS.
+The project, title TBA, is to create a sensor payload for a commercial drone that follows the following general specification:
 
-This project is sponsored by Elbit Systems of America, who provided funding as well as project requirements and specifications. The Elbit point of contact (POC) was Richard Plumer.
+> The desired capabilities of the drone will be to identify open wireless access points, scan the network, identify penitential entry points, and exploit the devices to gain access. Additional capabilities would be to use multiple drones for triangulation of wireless access points. If possible, all communication from the operator to the drone would take place over R/F (including command and control) to disguise the attack's point of origin.
+
+This project is sponsored by Elbit Systems of America (ESA or Elbit), who provided funding as well as project requirements and specifications. The Elbit Point of Contact (POC) is Richard Plumer.
 
 This project is advised by Dr. Christopher McMurrough, Associate Professor of Instruction at The University of Texas at Arlington.
 
-**Project Team Members:**
+**UTA Project Team:**
 
-Michael Bonnet
+Michael Bonnet, Team Leader
 
-Jorge Estrada
+Jorge Estrada, Team Member
 
-Michaela Hay
+Michaela Hay, Team Member
 
-Jose Ibarra
+Jose Ibarra, Team Member
 
-Benjamin Knight
+Benjamin Knight, Team Communications Head
 
-Kartikey Sharma
+Kartikey Sharma, Team Member
 
-*Note: Usage of Apache License 2.0 is tentative and subject to change.*
+**Notes:**
+
+This project is published using Apache License 2.0.
 
 
 
