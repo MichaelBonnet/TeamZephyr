@@ -11,7 +11,7 @@ import sys
 import subprocess
 
 # Configure stdout
-sys.stdout = buffer = StringIO()
+#sys.stdout = buffer = StringIO()
 
 # Configure LoRa Radio
 CS = DigitalInOut(board.CE1)
@@ -31,6 +31,8 @@ while True:
 	if packet is None:
 		continue
 	else:
+		sys.stdout = buffer = StringIO()
+
 		prev_packet = str(packet, 'utf-8')
 		#print('[Radio Script] Received: ' + prev_packet)
 
@@ -45,6 +47,10 @@ while True:
 		
 		# Send console output to base station and clear
 		reply(buffer.getvalue())
+
+		sys.stdout = sys.__stdout__
+		print(buffer.getvalue())
+
 		#os.system('clear')
 
 	time.sleep(0.1)
