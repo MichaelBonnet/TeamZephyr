@@ -1,7 +1,8 @@
 # TeamZephyr
+
 Code, documentation, and other files related to Team Zephyr's CSE 4316/4317 Computer System Design Project I/II senior capstone project at UT Arlington, Fall 2021-Spring 2022.
 
-The project, title TBA, is to create a sensor payload for a commercial drone that follows the following general specification:
+Our goal, titled Project APT, is to create a sensor payload for a commercial drone that follows the following general specification:
 
 > The desired capabilities of the drone will be to identify open wireless access points, scan the network, identify penitential entry points, and exploit the devices to gain access. Additional capabilities would be to use multiple drones for triangulation of wireless access points. If possible, all communication from the operator to the drone would take place over R/F (including command and control) to disguise the attack's point of origin.
 
@@ -30,8 +31,3 @@ Kartikey Sharma, Team Member
 **Notes:**
 
 This project is published using Apache License 2.0.
-
-
-
-
-
