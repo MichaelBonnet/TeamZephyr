@@ -2,7 +2,7 @@
 These two sample files (rfm9x_transmit and rfm9x_receive) are following from this [tutorial](https://learn.adafruit.com/lora-and-lorawan-radio-for-raspberry-pi/raspberry-pi-wiring). This tutorial is **very**
 thorough and goes over the basics of these modules. We need to make a class that more closely resembles what is happening in the tutorial. One where you can both receive and send data seemingly simultaneously. We will have to learn these modules fairly in depth because we will be sending larger than recommended amounts of data over the radio connection. Here is a link to the [RFM9X adafruit Library](https://github.com/adafruit/Adafruit_CircuitPython_RFM9x).
 
--Be sure to install the libraries mentioned in the tutorial above so that the LoRa modules can be read by the raspberry pi and so that the correc python libraries are installed in order to run the code
+-Be sure to install the libraries mentioned in the tutorial above so that the LoRa modules can be read by the raspberry pi and so that the correc python libraries are installed in order to run the code  
 -Run script with 'python3 rfm9x-base.py' (may need sudo)
 
 ## Future development
