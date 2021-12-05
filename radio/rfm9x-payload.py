@@ -1,4 +1,4 @@
-# Payloa Radio (Receives first)
+# Payload Radio
 import time
 import busio
 from digitalio import DigitalInOut, Direction, Pull
@@ -6,12 +6,8 @@ import board
 import adafruit_rfm9x
 from os.path import exists
 from io import StringIO
-import os
 import sys
 import subprocess
-
-# Configure stdout
-#sys.stdout = buffer = StringIO()
 
 # Configure LoRa Radio
 CS = DigitalInOut(board.CE1)
@@ -34,23 +30,18 @@ while True:
 		sys.stdout = buffer = StringIO()
 
 		prev_packet = str(packet, 'utf-8')
-		#print('[Radio Script] Received: ' + prev_packet)
 
 		# quit if we recv quit message, else run script
 		if(prev_packet == "quit"):
 			break
-		elif exists("./"+prev_packet):
-			print("[Payload] Started remote script "+prev_packet)
-			subprocess.call("sudo python3 "+prev_packet, shell=True)
 		else:
-			print("[Payload] File \""+prev_packet+"\" not found")
-		
+			print("[Payload] Running command : "+prev_packet)
+			print(subprocess.getoutput("sudo "+prev_packet))
+
 		# Send console output to base station and clear
 		reply(buffer.getvalue())
 
 		sys.stdout = sys.__stdout__
 		print(buffer.getvalue())
-
-		#os.system('clear')
 
 	time.sleep(0.1)
