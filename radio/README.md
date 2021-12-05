@@ -12,7 +12,7 @@ thorough and goes over the basics of these modules. We need to make a class that
 7) Optional*** if any libraries are missing then it should let you know, but be sure to install the missing libraries with 'apt-get install libraryname'  
 
 # Running the scripts with our Raspberry Pis
-1) SSH into the Raspberry Pi's (Insert IP addresses here and use port 22) The login for the kali linux pi is (Username: Kali / Password: kali) and for the raspian pi it is (Username: pi  / Password: projectApt)  
+1) SSH into the Raspberry Pi's (Insert IP addresses here and use port 22) The login for the kali linux pi is (Username: Kali / Password: kali) and for the raspian pi it is (Username: pi  / Password: projectAPT)  
 2) Once logged in, navigate to the home directory for both of the pis using 'cd ~' and it will navigate you to the home directory where the scripts are at.
 3) On the Kali be sure to run script with 'python3 rfm9x-payload.py' (may need sudo)
 4) On the Raspbian pi be sure to run script with 'python3 rfm9x-base.py' (may need sudo)
