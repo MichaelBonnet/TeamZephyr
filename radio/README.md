@@ -1,7 +1,6 @@
-# Radio Scripts
+# TeamZephyr/radio
 
 <!-- YOUR_COMMENT_HERE -->
-
 <!-- These two sample files (rfm9x_transmit and rfm9x_receive) are following from this [tutorial](https://learn.adafruit.com/lora-and-lorawan-radio-for-raspberry-pi/raspberry-pi-wiring). --> 
 Our base station/payload radio scripts are informed by [this tutorial](https://learn.adafruit.com/lora-and-lorawan-radio-for-raspberry-pi/raspberry-pi-wiring). This tutorial is **very**
 thorough and goes over the basics of these modules. 
@@ -9,9 +8,9 @@ thorough and goes over the basics of these modules.
 
 # Raspberry Pi Setup
 
-1) For the payload Raspberry Pi, install Kali Linux (Insert version here)
-2) For the base station Raspberry Pi, install Raspbian Lite (Insert Version Here)
-3) Install the libraries mentioned in the tutorial above so that the LoRa modules can be read by the Pis and so that the correct Python libraries are installed to run the code on both Raspberry Pis.
+1) For the payload Raspberry Pi, install [Kali Linux](https://www.kali.org//get-kali/#kali-arm)
+2) For the base station Raspberry Pi, install [Raspbian Lite](https://www.raspberrypi.com/software/operating-systems/)
+3) Install the libraries mentioned in the tutorial above - they're required to use the LoRa modules on the Pis and run our code.
 4) On the Pi running Kali Linux, be sure to run the following command, then reboot:
    1) `edit/boot/config.txt - enable "dtparm=spi=on"`
 5) Once the system is rebooted, you can follow the instructions below.
@@ -44,3 +43,7 @@ thorough and goes over the basics of these modules.
 [RFM9X Adafruit Library](https://github.com/adafruit/Adafruit_CircuitPython_RFM9x).
 
 [Adafruit RFM95W LoRa Radio Transceiver Breakout Module - 868 or 915 MHz](https://www.adafruit.com/product/3072)
+
+[Kali Linux](https://www.kali.org//get-kali/#kali-arm)
+
+[Raspbian Lite](https://www.raspberrypi.com/software/operating-systems/)
