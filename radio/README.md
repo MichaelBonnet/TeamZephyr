@@ -48,12 +48,12 @@ thorough and goes over the basics of these modules.
 
 # Links
 
-[Adafruit LoRa Tutorial](https://learn.adafruit.com/lora-and-lorawan-radio-for-raspberry-pi/raspberry-pi-wiring)
+* [Adafruit LoRa Tutorial](https://learn.adafruit.com/lora-and-lorawan-radio-for-raspberry-pi/raspberry-pi-wiring)
 
-[RFM9X Adafruit Library](https://github.com/adafruit/Adafruit_CircuitPython_RFM9x).
+* [RFM9X Adafruit Library](https://github.com/adafruit/Adafruit_CircuitPython_RFM9x)
 
-[Adafruit RFM95W LoRa Radio Transceiver Breakout Module - 868 or 915 MHz](https://www.adafruit.com/product/3072)
+* [Adafruit RFM95W LoRa Radio Transceiver Breakout Module - 868 or 915 MHz](https://www.adafruit.com/product/3072)
 
-[Kali Linux](https://www.kali.org//get-kali/#kali-arm)
+* [Kali Linux](https://www.kali.org//get-kali/#kali-arm)
 
-[Raspbian Lite](https://www.raspberrypi.com/software/operating-systems/)
+* [Raspbian Lite](https://www.raspberrypi.com/software/operating-systems/)
