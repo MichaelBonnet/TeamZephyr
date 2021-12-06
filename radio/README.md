@@ -22,9 +22,11 @@ thorough and goes over the basics of these modules. We need to make a class that
       1) `ssh kali@192.168.50.223` (IP specific to our lab's network)
       2) Password: kali
 2) Once logged in, navigate to the home directory for both of the pis using 'cd ~' and it will navigate you to the home directory where the scripts are at, or where you can close the repository to get the scripts..
-3) On the Kali Pi, run script `rfm9x-payload.py`: `python3 rfm9x-payload.py` (may need sudo)
-4) On the Raspbian Pi, run script `rfm9x-base.py`: `python3 rfm9x-base.py` (may need sudo)
-5) Once both scripts are running, you should be able to send commands from the base station Pi running Raspbian, including using Bash commands to run scripts on the payload Pi running Kali.
+3) On the Kali Pi, run script `rfm9x-payload.py`:
+      1) `python3 rfm9x-payload.py` (may need sudo)
+5) On the Raspbian Pi, run script `rfm9x-base.py`:
+      1) `python3 rfm9x-base.py` (may need sudo)
+7) Once both scripts are running, you should be able to send commands from the base station Pi running Raspbian, including using Bash commands to run scripts on the payload Pi running Kali.
 
 ## Future development
 
