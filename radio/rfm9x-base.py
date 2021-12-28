@@ -29,7 +29,7 @@ sending = True
 # Main loop for sending data to payload
 # Works as a remote shell via radio (LoRa module)
 # Can send any linux command to the remote system, and prints output.
-#
+
 # Preset Commands:
 # 'quit' : exits the loop and shuts down the script on BOTH sides (base station & payload)
 while True:
@@ -57,7 +57,7 @@ while True:
     # Default timeout is 1 second, can be changed below on line 48
 	else:
 		# Timeout in case message is not acknowledged
-		timeout = 15   # [seconds]
+		timeout = 60 # [seconds]
 		timeout_start = time.time()
 
         # While {timeout} second(s) have not passed, continue listening loop
@@ -76,7 +76,12 @@ while True:
 				continue
 			else:
 				prev_packet = str(packet, 'utf-8')
-				print(prev_packet, end="", flush=True)
+				if(prev_packet == "BANANAS"):
+					timeout = 0
+					sending = True
+					break
+				else:
+					print(prev_packet, end="", flush=True)
 		
         # Set the 'sending' flag back to true to return to sending mode
 		sending = True

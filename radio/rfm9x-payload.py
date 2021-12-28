@@ -67,6 +67,8 @@ while True:
 		# Send buffer value to base station
         for output in fragments:
             reply(output)
+
+        reply("BANANAS")
         
         # Reset the standard output to the console
         sys.stdout = sys.__stdout__
