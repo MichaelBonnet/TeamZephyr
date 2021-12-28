@@ -8,6 +8,12 @@ import busio
 from digitalio import DigitalInOut, Direction, Pull
 import board
 import adafruit_rfm9x
+import RPi.GPIO as GPIO
+
+# LED Setup
+GPIO.setmode(GPIO.BCM)
+led_pin =  21
+GPIO.setup(led_pin, GPIO.OUT)
 
 # Configure LoRa Radio
 CS = DigitalInOut(board.CE1)
@@ -27,12 +33,14 @@ sending = True
 # Preset Commands:
 # 'quit' : exits the loop and shuts down the script on BOTH sides (base station & payload)
 while True:
-
     # If it's our turn to send (not currently listening for response)
 	if sending:
-    
+		
+		GPIO.output(led_pin, GPIO.HIGH)
         # Get input command from user
 		command = input('[Base Station] Send command: ')
+		GPIO.output(led_pin, GPIO.LOW)
+
 		msg = bytes(command, 'utf-8')
         
         # Send the input to payload via radio
@@ -49,7 +57,7 @@ while True:
     # Default timeout is 1 second, can be changed below on line 48
 	else:
 		# Timeout in case message is not acknowledged
-		timeout = 1   # [seconds]
+		timeout = 15   # [seconds]
 		timeout_start = time.time()
 
         # While {timeout} second(s) have not passed, continue listening loop
@@ -68,7 +76,7 @@ while True:
 				continue
 			else:
 				prev_packet = str(packet, 'utf-8')
-				print(prev_packet)
+				print(prev_packet, end="", flush=True)
 		
         # Set the 'sending' flag back to true to return to sending mode
 		sending = True
