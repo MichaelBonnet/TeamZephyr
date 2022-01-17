@@ -9,6 +9,7 @@ from digitalio import DigitalInOut, Direction, Pull
 import board
 import adafruit_rfm9x
 import RPi.GPIO as GPIO
+import keyboard
 
 # LED Setup
 GPIO.setmode(GPIO.BCM)
@@ -34,57 +35,67 @@ sending = True
 # 'quit' : exits the loop and shuts down the script on BOTH sides (base station & payload)
 while True:
     # If it's our turn to send (not currently listening for response)
-	if sending:
+	# if sending:
 		
-		GPIO.output(led_pin, GPIO.HIGH)
-        # Get input command from user
-		command = input('[Base Station] Send command: ')
-		GPIO.output(led_pin, GPIO.LOW)
+	# 	command = input('[Base]:')
 
-		msg = bytes(command, 'utf-8')
+		
+
+	# 	msg = bytes(command, 'utf-8')
         
-        # Send the input to payload via radio
-		rfm9x.send_with_ack(msg)
+  #       # Send the input to payload via radio
+	# 	rfm9x.send_with_ack(msg)
 
-        # If the command was 'quit', break out of the loop (closes program)
-		if(command == 'quit'):
-			break
+  #       # If the command was 'quit', break out of the loop (closes program)
+	# 	if(command == 'quit'):
+	# 		break
 
-        # Set the 'sending' flag to false so we listen on our next loop iteration
-		sending = False
+  #       # Set the 'sending' flag to false so we listen on our next loop iteration
+	# 	sending = False
         
-    # If sending == false, we listen for {timeout} second(s) for any response from the payload
-    # Default timeout is 1 second, can be changed below on line 48
-	else:
-		# Timeout in case message is not acknowledged
-		timeout = 60 # [seconds]
-		timeout_start = time.time()
+  #   # If sending == false, we listen for {timeout} second(s) for any response from the payload
+  #   # Default timeout is 1 second, can be changed below on line 48
+	# else:
+	# 	# Timeout in case message is not acknowledged
+	# 	timeout = 60 # [seconds]
+	# 	timeout_start = time.time()
 
-        # While {timeout} second(s) have not passed, continue listening loop
-		while (time.time() < timeout_start + timeout):
+  #       # While {timeout} second(s) have not passed, continue listening loop
+	# 	while (time.time() < timeout_start + timeout):
         
-            # Clear anything we may have in the 'packet' variable
-			packet = None
+  #           # Clear anything we may have in the 'packet' variable
+	# 		packet = None
             
-            # Attempt to recieve a message over radio (LoRa module) from payload station
-			packet = rfm9x.receive()
+  #           # Attempt to recieve a message over radio (LoRa module) from payload station
+	# 		packet = rfm9x.receive()
 
-            # Condition to check if our recieved packet contains any data
-            # If it is empty, continue loop without any output
-            # Else, decode the packet as a utf-8 encoded string, and print the output to console
-			if packet is None:
+  #           # Condition to check if our recieved packet contains any data
+  #           # If it is empty, continue loop without any output
+  #           # Else, decode the packet as a utf-8 encoded string, and print the output to console
+	# 		if packet is None:
+	# 			continue
+	# 		else:
+	# 			prev_packet = str(packet, 'utf-8')
+	# 			if(prev_packet == "BANANAS"):
+	# 				timeout = 0
+	# 				sending = True
+	# 				break
+	# 			else:
+	# 				print(prev_packet, end="", flush=True)
+		
+  #       # Set the 'sending' flag back to true to return to sending mode
+	# 	sending = True
+    
+  #   # Short wait to optimize performance
+		if(keyboard.is_pressed('s')):
+			# throw into a function called send or something
+			msg = input('>')
+			msg = bytes(msg, 'utf-8')
+			rfm9x.send_with_ack(msg)
+		else:
+			recv = rfm9x.receive()
+			if recv is None:
 				continue
 			else:
-				prev_packet = str(packet, 'utf-8')
-				if(prev_packet == "BANANAS"):
-					timeout = 0
-					sending = True
-					break
-				else:
-					print(prev_packet, end="", flush=True)
-		
-        # Set the 'sending' flag back to true to return to sending mode
-		sending = True
-    
-    # Short wait to optimize performance
-	time.sleep(0.1)
+				recv = str(recv, 'utf-8')
+				print(recv)
