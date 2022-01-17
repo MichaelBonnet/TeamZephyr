@@ -9,7 +9,7 @@ from digitalio import DigitalInOut, Direction, Pull
 import board
 import adafruit_rfm9x
 import RPi.GPIO as GPIO
-import keyboard
+#import keyboard
 
 # LED Setup
 GPIO.setmode(GPIO.BCM)
