@@ -16,17 +16,28 @@ rfm9x = adafruit_rfm9x.RFM9x(spi, CS, RESET, 915.0) # Last argument is the frequ
 rfm9x.tx_power = 23
 
 def receive():
-  recv = rfm9x.receive()
-  if recv is not None:
-    recv = str(recv, 'utf-8')
-    print(recv)
+  while True:
+    recv = rfm9x.receive(with_ack=True)
+    if (recv is not None) and (recv is not 'quit'):
+      recv = str(recv, 'utf-8')
+      print('[RECV]>' + recv)
+    elif(recv is 'quit'):
+      break
 
 def send():
-  msg = input('[SEND]>')
-  msg = bytes(msg, 'utf-8')
-  rfm9x.send_with_ack(msg)
+  while True:
+    msg = input('[SEND]>')
+    msg = bytes(msg, 'utf-8')
+    rfm9x.send_with_ack(msg)
 
-while True:
-  send()
-  receive()
+
+t_receive = threading.Thread(target=receive)
+t_send = threading.Thread(target=send)
+
+t_receive.start()
+t_send.start()
+
+t_receive.join()
+
+
 
