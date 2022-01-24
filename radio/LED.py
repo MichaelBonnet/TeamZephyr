@@ -33,20 +33,24 @@ class LED:
 		self.off()
 		self.blink(self.green_pin)
 
-	def blue():
-	    	blink(blue_pin)
+	def blue(self):
+		self.off()
+	    	self.blink(self.blue_pin)
 
-	def yellow():
-	    	blink(red_pin)
-	    	blink(green_pin)
+	def yellow(self):
+		self.off()
+	    	self.blink(self.red_pin)
+	    	self.blink(self.green_pin)
 
-	def cyan():
-		blink(green_pin)
-		blink(blue_pin)
+	def cyan(self):
+		self.off()
+		self.blink(self.green_pin)
+		self.blink(self.blue_pin)
 
-	def magenta():
-	    	blink(red_pin)
-	    	blink(blue_pin)
+	def magenta(self):
+		self.off()
+	    	self.blink(self.red_pin)
+	    	self.blink(self.blue_pin)
 
 #Example code that calls the function
 drone = LED()
