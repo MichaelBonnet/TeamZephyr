@@ -4,12 +4,20 @@ import board
 import adafruit_rfm9x
 import RPi.GPIO as GPIO
 
-# init LoRa
-CS = DigitalInOut(board.CE1)
-RESET = DigitalInOut(board.D25)
-spi = busio.SPI(board.SCK, MOSI=board.MOSI, MISO=board.MISO)
-rfm9x = adafruit_rfm9x.RFM9x(spi, CS, RESET, 915.0)
-rfm9x.tx_power = 23
+def main():
+    # init LoRa
+    CS = DigitalInOut(board.CE1)
+    RESET = DigitalInOut(board.D25)
+    spi = busio.SPI(board.SCK, MOSI=board.MOSI, MISO=board.MISO)
+    rfm9x = adafruit_rfm9x.RFM9x(spi, CS, RESET, 433.0)
+    rfm9x.tx_power = 23
+    print("rfm9x initialized")
+
+    sending = ""
+
+    while sending != "quit":
+        sending = input("[BASE]: ")
+        rfm9x.send_with_ack(sending.encode("utf-8"))
 
 if __name__ == "__main__":
-    print("rmf9x initialized") 
+    main()
