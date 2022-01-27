@@ -13,14 +13,11 @@ def main():
     rfm9x.tx_power = 23
     print("rfm9x initialized")
 
-    recv = ""
+    sending = ""
 
-    while recv != "quit":
-        recv = rfm9x.receive(with_ack=True, timeout=1000)
-        recv = str(packet, "utf-8") if recv != None else ""
-        
-        #if recv != "":
-        print(recv)
+    while sending != "quit":
+        sending = input("[BASE]: ")
+        rfm9x.send_with_ack(sending.encode("utf-8"))
 
 if __name__ == "__main__":
     main()
