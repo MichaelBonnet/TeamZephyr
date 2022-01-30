@@ -6,6 +6,7 @@ import RPi.GPIO as GPIO
 import subprocess
 import logging
 import datetime
+from utils.led import Led
 
 def curr_time():
     return str(datetime.datetime.now())
@@ -26,6 +27,9 @@ def main():
     # init logging
     logging.basicConfig(filename="logs/payload.log", encoding="utf-8", level=logging.DEBUG)
 
+    # init led
+    led = Led()
+
     # init LoRa
     CS = DigitalInOut(board.CE1)
     RESET = DigitalInOut(board.D25)
@@ -38,13 +42,15 @@ def main():
     recv = ""
 
     while recv != "quit":
+        led.blue()
         recv = rfm9x.receive(with_ack=True, timeout=1000)
         recv = str(recv, "utf-8") if recv != None else ""
         
         if recv != "":
+            led.green()
             result = run_cmd(recv)
-            print(result)
             rfm9x.send_with_ack(result.encode("utf-8"))
+            print(result)
 
 if __name__ == "__main__":
     main()
