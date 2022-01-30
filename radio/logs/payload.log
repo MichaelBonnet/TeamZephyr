@@ -1,0 +1,9 @@
+INFO:root:cmd 'python3 test.1.py' success 2022-01-30 01:11:07.807558
+ERROR:root:cmd 'pyhon3 test.1.py' error: Command 'pyhon3 test.1.py' returned non-zero exit status 127.  2022-01-30 01:11:22.156172
+INFO:root:rmf9x initialized - 2022-01-30 02:07:49.119071
+INFO:root:rmf9x initialized - 2022-01-30 06:35:35.799054
+ERROR:root:cmd 'pythwe' error: Command 'pythwe' returned non-zero exit status 127.  2022-01-30 06:35:40.210747
+INFO:root:rmf9x initialized - 2022-01-30 06:36:40.570492
+ERROR:root:cmd 'pytho' error: Command 'pytho' returned non-zero exit status 127.  2022-01-30 06:36:43.345836
+ERROR:root:cmd 'python test.1.py' error: Command 'python test.1.py' returned non-zero exit status 127.  2022-01-30 06:37:07.179249
+INFO:root:cmd 'python3 test.1.py' success 2022-01-30 06:37:23.065514
