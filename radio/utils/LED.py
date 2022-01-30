@@ -1,8 +1,6 @@
 import time, sys
 import RPi.GPIO as GPIO
 
-#TODO: add the self keyword used in redOn and redOff to the rest of the color function as used in those functions
-
 class LED:
 	def __init__(self):
 		self.red_pin = 11
@@ -35,12 +33,12 @@ class LED:
 
 	def blue(self):
 		self.off()
-	    	self.blink(self.blue_pin)
+		self.blink(self.blue_pin)
 
 	def yellow(self):
 		self.off()
-	    	self.blink(self.red_pin)
-	    	self.blink(self.green_pin)
+		self.blink(self.red_pin)
+		self.blink(self.green_pin)
 
 	def cyan(self):
 		self.off()
@@ -49,12 +47,5 @@ class LED:
 
 	def magenta(self):
 		self.off()
-	    	self.blink(self.red_pin)
-	    	self.blink(self.blue_pin)
-
-#Example code that calls the function
-drone = LED()
-#drone.off()
-drone.green()	
-
-	  	    	
+		self.blink(self.red_pin)
+		self.blink(self.blue_pin)
