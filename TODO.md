@@ -9,6 +9,7 @@
 3. Thorough logging
 4. Integrate LED.py code into it
 5. Attach 433 MHz antennas
+6. Add a watchdog and start payload.py on startup
 
 ### Backlog
 1. Add support for more shells commands such as `cd` or `ls`
