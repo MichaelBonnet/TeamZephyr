@@ -8,6 +8,7 @@
 2. Add longer tests to test system capacity
 3. Thorough logging
 4. Integrate LED.py code into it
+5. Attach 433 MHz antennas
 
 ### Backlog
 1. Add support for more shells commands such as `cd` or `ls`
