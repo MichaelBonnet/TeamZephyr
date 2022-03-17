@@ -6,6 +6,7 @@ import RPi.GPIO as GPIO
 import subprocess
 import logging
 import datetime
+import os
 from utils.led import Led
 
 def curr_time():
@@ -14,7 +15,8 @@ def curr_time():
 def run_cmd(cmd):
     result = ""
     try:
-        subprocess.run(cmd, check=True, shell=True)
+        temp = os.system(cmd)
+        #subprocess.run(cmd, check=True, shell=True)
         result = f"cmd '{cmd}' success {curr_time()}"
         logging.info(result)
         return result
@@ -25,6 +27,7 @@ def run_cmd(cmd):
 
 def main():
     # init logging
+
     logging.basicConfig(filename="logs/payload.log", encoding="utf-8", level=logging.DEBUG)
 
     # init led

