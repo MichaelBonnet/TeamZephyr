@@ -15,15 +15,15 @@ def curr_time():
 def run_cmd(cmd):
     result = ""
     try:
-        temp = os.system(cmd)
-        #subprocess.run(cmd, check=True, shell=True)
+        #ret = os.system(cmd)
+        subprocess.run(cmd, check=True, shell=True)
         result = f"cmd '{cmd}' success {curr_time()}"
         logging.info(result)
-        return result
+        return (result, 0)
     except Exception as e:
         result = f"cmd '{cmd}' error: {e}  {curr_time()}"
         logging.error(result)
-        return result
+        return (result, -1)
 
 def main():
     # init logging
@@ -43,17 +43,21 @@ def main():
     logging.info(f"rmf9x initialized - {curr_time()}")
 
     recv = ""
+    result = ("", 0)
 
     while recv != "quit":
-        led.blue()
+        if(result[1] == 0):
+        	led.blue()
+        else:
+        	led.red()
         recv = rfm9x.receive(with_ack=True, timeout=1000)
         recv = str(recv, "utf-8") if recv != None else ""
         
         if recv != "":
             led.green()
             result = run_cmd(recv)
-            rfm9x.send_with_ack(result.encode("utf-8"))
-            print(result)
+            rfm9x.send_with_ack(result[0].encode("utf-8"))
+            print(result[0])
 
 if __name__ == "__main__":
     main()

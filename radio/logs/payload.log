@@ -115,3 +115,560 @@ INFO:root:cmd 'python3 /home/Kali/Desktop/TeamZephyr/pentesting_scripts/exploita
 INFO:root:cmd 'python3 /home/kali/Desktop/TeamZephyr/pentesting_scripts/exploitation_script.py' success 2022-03-17 01:28:20.568534
 INFO:root:rmf9x initialized - 2022-03-17 01:29:48.915260
 INFO:root:cmd 'python3 /home/kali/Desktop/TeamZephyr/pentesting_scripts/exploitation_script.py' success 2022-03-17 01:30:08.611806
+INFO:root:rmf9x initialized - 2022-03-17 01:46:23.121367
+INFO:root:rmf9x initialized - 2022-03-24 17:58:53.053765
+INFO:root:cmd 'python3 tests/test.1.py' success 2022-03-24 18:05:25.182867
+INFO:root:rmf9x initialized - 2022-03-24 18:05:59.572924
+INFO:root:cmd 'python3 tests/test.1.py' success 2022-03-24 18:07:00.096732
+INFO:root:cmd 'python3 tests/test.1.py' success 2022-03-24 18:07:33.007594
+INFO:root:rmf9x initialized - 2022-03-24 18:51:23.879115
+INFO:root:rmf9x initialized - 2022-03-24 19:17:40.375279
+INFO:root:rmf9x initialized - 2022-03-24 19:37:50.377191
+INFO:root:rmf9x initialized - 2022-03-24 20:19:22.387813
+INFO:root:rmf9x initialized - 2022-03-24 21:17:26.637742
+INFO:root:rmf9x initialized - 2022-03-24 22:51:16.637467
+INFO:root:rmf9x initialized - 2022-03-25 00:09:41.632339
+INFO:root:rmf9x initialized - 2022-03-25 01:27:54.377649
+INFO:root:rmf9x initialized - 2022-03-25 04:17:28.632130
+INFO:root:rmf9x initialized - 2022-03-25 05:38:04.389247
+INFO:root:rmf9x initialized - 2022-03-25 06:19:21.377301
+INFO:root:rmf9x initialized - 2022-03-25 07:10:41.876387
+INFO:root:rmf9x initialized - 2022-03-25 07:46:52.877646
+INFO:root:rmf9x initialized - 2022-03-25 07:55:41.127566
+INFO:root:rmf9x initialized - 2022-03-25 10:54:17.134882
+INFO:root:rmf9x initialized - 2022-03-25 12:12:36.386746
+INFO:root:rmf9x initialized - 2022-03-25 12:33:21.130672
+INFO:root:rmf9x initialized - 2022-03-25 14:43:23.636661
+INFO:root:rmf9x initialized - 2022-03-25 14:50:20.387048
+INFO:root:rmf9x initialized - 2022-03-25 15:33:59.380698
+INFO:root:rmf9x initialized - 2022-03-25 16:11:46.138010
+INFO:root:rmf9x initialized - 2022-03-25 17:37:42.386153
+INFO:root:rmf9x initialized - 2022-03-25 18:37:01.129487
+INFO:root:rmf9x initialized - 2022-03-25 20:21:53.627527
+INFO:root:rmf9x initialized - 2022-03-25 22:04:05.377976
+INFO:root:rmf9x initialized - 2022-03-25 22:33:04.386205
+INFO:root:rmf9x initialized - 2022-03-25 23:03:45.129054
+INFO:root:rmf9x initialized - 2022-03-26 00:31:30.376227
+INFO:root:rmf9x initialized - 2022-03-26 01:50:07.640821
+INFO:root:rmf9x initialized - 2022-03-26 02:57:09.132524
+INFO:root:rmf9x initialized - 2022-03-26 04:06:33.376995
+INFO:root:rmf9x initialized - 2022-03-26 04:30:16.130094
+INFO:root:rmf9x initialized - 2022-03-26 05:08:18.383861
+INFO:root:rmf9x initialized - 2022-03-26 07:44:53.902269
+INFO:root:rmf9x initialized - 2022-03-26 07:54:43.136099
+INFO:root:rmf9x initialized - 2022-03-26 08:04:28.130643
+INFO:root:rmf9x initialized - 2022-03-26 08:28:10.883342
+INFO:root:rmf9x initialized - 2022-03-26 08:58:46.886985
+INFO:root:rmf9x initialized - 2022-03-26 09:24:51.881590
+INFO:root:rmf9x initialized - 2022-03-26 09:55:47.881150
+INFO:root:rmf9x initialized - 2022-03-26 10:38:08.140273
+INFO:root:rmf9x initialized - 2022-03-26 11:16:38.909751
+INFO:root:rmf9x initialized - 2022-03-26 11:27:30.880038
+INFO:root:rmf9x initialized - 2022-03-26 12:35:58.636792
+INFO:root:rmf9x initialized - 2022-03-26 13:38:40.885444
+INFO:root:rmf9x initialized - 2022-03-26 17:08:58.377845
+INFO:root:rmf9x initialized - 2022-03-26 17:28:10.405355
+INFO:root:rmf9x initialized - 2022-03-26 18:29:34.379894
+INFO:root:rmf9x initialized - 2022-03-26 18:52:37.888172
+INFO:root:rmf9x initialized - 2022-03-26 20:06:24.398122
+INFO:root:rmf9x initialized - 2022-03-26 21:05:38.626731
+INFO:root:rmf9x initialized - 2022-03-26 21:38:43.897196
+INFO:root:rmf9x initialized - 2022-03-26 22:47:34.882942
+INFO:root:rmf9x initialized - 2022-03-26 23:50:32.885888
+INFO:root:rmf9x initialized - 2022-03-27 00:49:25.634601
+INFO:root:rmf9x initialized - 2022-03-27 00:57:53.128274
+INFO:root:rmf9x initialized - 2022-03-27 01:30:58.878202
+INFO:root:rmf9x initialized - 2022-03-27 01:32:17.633592
+INFO:root:rmf9x initialized - 2022-03-27 02:55:09.119437
+INFO:root:rmf9x initialized - 2022-03-27 03:08:28.627118
+INFO:root:rmf9x initialized - 2022-03-27 04:31:49.389261
+INFO:root:rmf9x initialized - 2022-03-27 06:43:38.387814
+INFO:root:rmf9x initialized - 2022-03-27 09:59:24.130198
+INFO:root:rmf9x initialized - 2022-03-27 11:48:51.139921
+INFO:root:rmf9x initialized - 2022-03-27 14:53:19.626241
+INFO:root:rmf9x initialized - 2022-03-27 16:55:43.886882
+INFO:root:rmf9x initialized - 2022-03-27 17:31:24.628992
+INFO:root:rmf9x initialized - 2022-03-27 18:14:07.884845
+INFO:root:rmf9x initialized - 2022-03-27 19:47:37.885847
+INFO:root:rmf9x initialized - 2022-03-27 19:53:18.132907
+INFO:root:rmf9x initialized - 2022-03-27 19:53:26.888067
+INFO:root:rmf9x initialized - 2022-03-27 20:41:28.638125
+INFO:root:rmf9x initialized - 2022-03-27 22:14:36.884129
+INFO:root:rmf9x initialized - 2022-03-27 22:44:16.630856
+INFO:root:rmf9x initialized - 2022-03-27 23:04:57.629773
+INFO:root:rmf9x initialized - 2022-03-27 23:33:57.137571
+INFO:root:rmf9x initialized - 2022-03-28 01:56:27.387943
+INFO:root:rmf9x initialized - 2022-03-28 02:04:59.140569
+INFO:root:rmf9x initialized - 2022-03-28 02:24:41.136763
+INFO:root:rmf9x initialized - 2022-03-28 03:32:55.635432
+INFO:root:rmf9x initialized - 2022-03-28 04:27:40.641635
+INFO:root:rmf9x initialized - 2022-03-28 04:36:00.144469
+INFO:root:rmf9x initialized - 2022-03-28 05:35:45.386301
+INFO:root:rmf9x initialized - 2022-03-28 07:29:24.106430
+INFO:root:rmf9x initialized - 2022-03-28 08:36:57.885899
+INFO:root:rmf9x initialized - 2022-03-28 09:03:56.139257
+INFO:root:rmf9x initialized - 2022-03-28 10:46:18.885330
+INFO:root:rmf9x initialized - 2022-03-28 10:51:35.629611
+INFO:root:rmf9x initialized - 2022-03-28 11:15:54.893574
+INFO:root:rmf9x initialized - 2022-03-28 12:15:46.126544
+INFO:root:rmf9x initialized - 2022-03-28 13:06:15.133594
+INFO:root:rmf9x initialized - 2022-03-28 14:27:18.892640
+INFO:root:rmf9x initialized - 2022-03-28 15:08:39.637201
+INFO:root:rmf9x initialized - 2022-03-28 16:05:43.886722
+INFO:root:rmf9x initialized - 2022-03-28 16:28:22.385068
+INFO:root:rmf9x initialized - 2022-03-28 17:06:15.629149
+INFO:root:rmf9x initialized - 2022-03-28 17:39:00.917637
+INFO:root:rmf9x initialized - 2022-03-28 17:42:04.881383
+INFO:root:rmf9x initialized - 2022-03-28 18:52:37.383693
+INFO:root:rmf9x initialized - 2022-03-28 19:06:59.377012
+INFO:root:rmf9x initialized - 2022-03-28 20:23:56.881479
+INFO:root:rmf9x initialized - 2022-03-28 20:40:06.885266
+INFO:root:rmf9x initialized - 2022-03-28 21:50:21.386779
+INFO:root:rmf9x initialized - 2022-03-28 23:17:59.383739
+INFO:root:rmf9x initialized - 2022-03-28 23:27:22.140729
+INFO:root:rmf9x initialized - 2022-03-28 23:50:44.890461
+INFO:root:rmf9x initialized - 2022-03-29 00:11:45.638493
+INFO:root:rmf9x initialized - 2022-03-29 01:25:20.631844
+INFO:root:rmf9x initialized - 2022-03-29 01:52:52.388626
+INFO:root:rmf9x initialized - 2022-03-29 02:00:56.138092
+INFO:root:rmf9x initialized - 2022-03-29 02:04:08.134644
+INFO:root:rmf9x initialized - 2022-03-29 02:21:22.129634
+INFO:root:rmf9x initialized - 2022-03-29 03:49:54.893053
+INFO:root:rmf9x initialized - 2022-03-29 04:12:14.138618
+INFO:root:rmf9x initialized - 2022-03-29 08:01:22.640280
+INFO:root:rmf9x initialized - 2022-03-29 08:25:09.133129
+INFO:root:rmf9x initialized - 2022-03-29 10:42:30.129422
+INFO:root:rmf9x initialized - 2022-03-29 10:49:17.894483
+INFO:root:rmf9x initialized - 2022-03-29 10:50:35.630275
+INFO:root:rmf9x initialized - 2022-03-29 11:44:01.627129
+INFO:root:rmf9x initialized - 2022-03-29 12:17:43.893622
+INFO:root:rmf9x initialized - 2022-03-29 12:38:13.126229
+INFO:root:rmf9x initialized - 2022-03-29 13:23:21.132174
+INFO:root:rmf9x initialized - 2022-03-29 14:09:50.638570
+INFO:root:rmf9x initialized - 2022-03-29 14:22:54.378161
+INFO:root:rmf9x initialized - 2022-03-29 15:08:23.882334
+INFO:root:rmf9x initialized - 2022-03-29 15:37:15.381908
+INFO:root:rmf9x initialized - 2022-03-29 16:11:32.133923
+INFO:root:rmf9x initialized - 2022-03-29 16:48:21.879992
+INFO:root:rmf9x initialized - 2022-03-29 18:15:57.385527
+INFO:root:rmf9x initialized - 2022-03-29 19:49:59.385473
+INFO:root:rmf9x initialized - 2022-03-29 20:07:57.646996
+INFO:root:rmf9x initialized - 2022-03-29 21:44:31.636148
+INFO:root:rmf9x initialized - 2022-03-29 22:00:58.626978
+INFO:root:rmf9x initialized - 2022-03-29 23:11:28.632280
+INFO:root:rmf9x initialized - 2022-03-29 23:57:36.127932
+INFO:root:rmf9x initialized - 2022-03-30 05:59:21.386281
+INFO:root:rmf9x initialized - 2022-03-30 06:02:42.888052
+INFO:root:rmf9x initialized - 2022-03-30 06:18:01.637028
+INFO:root:rmf9x initialized - 2022-03-30 06:54:53.635001
+INFO:root:rmf9x initialized - 2022-03-30 09:42:08.627992
+INFO:root:rmf9x initialized - 2022-03-30 10:06:53.636353
+INFO:root:rmf9x initialized - 2022-03-30 10:18:09.630002
+INFO:root:rmf9x initialized - 2022-03-30 11:14:00.128483
+INFO:root:rmf9x initialized - 2022-03-30 11:56:27.887917
+INFO:root:rmf9x initialized - 2022-03-30 12:04:29.382887
+INFO:root:rmf9x initialized - 2022-03-30 12:05:28.383011
+INFO:root:rmf9x initialized - 2022-03-30 15:49:49.900836
+INFO:root:rmf9x initialized - 2022-03-30 15:52:58.137996
+INFO:root:rmf9x initialized - 2022-03-30 15:55:53.142315
+INFO:root:rmf9x initialized - 2022-03-30 16:02:59.131305
+INFO:root:rmf9x initialized - 2022-03-30 16:06:33.630890
+INFO:root:rmf9x initialized - 2022-03-30 17:30:06.390160
+INFO:root:rmf9x initialized - 2022-03-30 17:33:21.371453
+INFO:root:rmf9x initialized - 2022-03-30 18:32:48.134273
+INFO:root:rmf9x initialized - 2022-03-30 18:52:59.126902
+INFO:root:rmf9x initialized - 2022-03-30 19:34:21.384870
+INFO:root:rmf9x initialized - 2022-03-30 20:04:07.128126
+INFO:root:rmf9x initialized - 2022-03-30 21:14:27.873526
+INFO:root:rmf9x initialized - 2022-03-30 22:24:59.885333
+INFO:root:rmf9x initialized - 2022-03-30 22:43:00.380175
+INFO:root:rmf9x initialized - 2022-03-30 23:09:11.129507
+INFO:root:rmf9x initialized - 2022-03-30 23:47:13.889113
+INFO:root:rmf9x initialized - 2022-03-30 23:57:21.624571
+INFO:root:rmf9x initialized - 2022-03-31 02:15:22.895074
+INFO:root:rmf9x initialized - 2022-03-31 03:08:21.889898
+INFO:root:rmf9x initialized - 2022-03-31 07:00:50.879626
+INFO:root:rmf9x initialized - 2022-03-31 07:17:51.387790
+INFO:root:rmf9x initialized - 2022-03-31 07:24:17.121456
+INFO:root:rmf9x initialized - 2022-03-31 09:17:26.128768
+INFO:root:rmf9x initialized - 2022-03-31 11:10:43.638154
+INFO:root:rmf9x initialized - 2022-03-31 15:17:48.881591
+INFO:root:rmf9x initialized - 2022-03-31 15:58:26.135031
+INFO:root:rmf9x initialized - 2022-03-31 16:22:45.396122
+INFO:root:rmf9x initialized - 2022-03-31 16:22:52.633002
+INFO:root:rmf9x initialized - 2022-03-31 17:49:59.630162
+INFO:root:rmf9x initialized - 2022-03-31 18:15:55.147780
+INFO:root:rmf9x initialized - 2022-03-31 20:46:45.885250
+INFO:root:rmf9x initialized - 2022-03-31 20:55:26.388737
+INFO:root:cmd 'h0' success 2022-03-31 21:05:24.760480
+INFO:root:rmf9x initialized - 2022-03-31 22:14:15.884612
+INFO:root:rmf9x initialized - 2022-03-31 23:07:59.145204
+INFO:root:rmf9x initialized - 2022-03-31 23:30:27.386512
+INFO:root:rmf9x initialized - 2022-03-31 23:45:58.135996
+INFO:root:rmf9x initialized - 2022-04-01 00:12:36.637919
+INFO:root:rmf9x initialized - 2022-04-01 00:32:45.642076
+INFO:root:rmf9x initialized - 2022-04-01 01:04:30.369169
+INFO:root:rmf9x initialized - 2022-04-01 02:16:24.883914
+INFO:root:rmf9x initialized - 2022-04-01 02:51:02.382052
+INFO:root:rmf9x initialized - 2022-04-01 03:07:30.880878
+INFO:root:rmf9x initialized - 2022-04-01 05:10:44.886071
+INFO:root:rmf9x initialized - 2022-04-01 05:39:16.634426
+INFO:root:rmf9x initialized - 2022-04-01 06:28:36.638679
+INFO:root:rmf9x initialized - 2022-04-01 07:05:49.630101
+INFO:root:rmf9x initialized - 2022-04-01 07:29:22.883139
+INFO:root:rmf9x initialized - 2022-04-01 08:04:28.887681
+INFO:root:rmf9x initialized - 2022-04-01 08:29:06.130432
+INFO:root:rmf9x initialized - 2022-04-01 10:28:24.131603
+INFO:root:rmf9x initialized - 2022-04-01 11:28:12.129194
+INFO:root:rmf9x initialized - 2022-04-01 11:34:04.630496
+INFO:root:rmf9x initialized - 2022-04-01 12:14:45.641437
+INFO:root:rmf9x initialized - 2022-04-01 13:33:54.381422
+INFO:root:rmf9x initialized - 2022-04-01 13:38:22.643640
+INFO:root:rmf9x initialized - 2022-04-01 14:21:14.635007
+INFO:root:rmf9x initialized - 2022-04-01 14:52:59.381872
+INFO:root:rmf9x initialized - 2022-04-01 15:49:52.886798
+INFO:root:rmf9x initialized - 2022-04-01 18:50:58.627258
+INFO:root:rmf9x initialized - 2022-04-01 19:20:08.630343
+INFO:root:rmf9x initialized - 2022-04-01 19:25:31.372861
+INFO:root:rmf9x initialized - 2022-04-01 22:14:12.378925
+INFO:root:rmf9x initialized - 2022-04-01 23:25:36.637231
+INFO:root:rmf9x initialized - 2022-04-02 01:07:12.385391
+INFO:root:rmf9x initialized - 2022-04-02 03:18:55.137353
+INFO:root:rmf9x initialized - 2022-04-02 08:33:28.134566
+INFO:root:rmf9x initialized - 2022-04-02 08:37:16.634009
+INFO:root:rmf9x initialized - 2022-04-02 09:10:51.638129
+INFO:root:rmf9x initialized - 2022-04-02 09:42:36.878513
+INFO:root:rmf9x initialized - 2022-04-02 10:14:20.140632
+INFO:root:rmf9x initialized - 2022-04-02 10:30:27.381158
+INFO:root:rmf9x initialized - 2022-04-02 11:04:54.134414
+INFO:root:rmf9x initialized - 2022-04-02 11:20:11.629504
+INFO:root:rmf9x initialized - 2022-04-02 11:53:52.873584
+INFO:root:rmf9x initialized - 2022-04-02 12:20:25.385674
+INFO:root:rmf9x initialized - 2022-04-02 12:45:05.886782
+INFO:root:rmf9x initialized - 2022-04-02 13:01:39.636497
+INFO:root:rmf9x initialized - 2022-04-02 13:53:06.386444
+INFO:root:rmf9x initialized - 2022-04-02 14:02:25.394653
+INFO:root:rmf9x initialized - 2022-04-02 15:44:16.881712
+INFO:root:rmf9x initialized - 2022-04-02 16:05:53.378481
+INFO:root:rmf9x initialized - 2022-04-02 18:04:28.134582
+INFO:root:rmf9x initialized - 2022-04-02 19:07:14.886201
+INFO:root:rmf9x initialized - 2022-04-02 19:23:27.380610
+INFO:root:rmf9x initialized - 2022-04-02 20:37:31.150207
+INFO:root:rmf9x initialized - 2022-04-02 21:04:37.880448
+INFO:root:rmf9x initialized - 2022-04-02 21:51:27.377728
+INFO:root:rmf9x initialized - 2022-04-02 23:13:17.128885
+INFO:root:rmf9x initialized - 2022-04-02 23:58:25.386967
+INFO:root:rmf9x initialized - 2022-04-03 01:08:38.133012
+INFO:root:rmf9x initialized - 2022-04-03 01:21:28.139134
+INFO:root:rmf9x initialized - 2022-04-03 04:02:23.883653
+INFO:root:rmf9x initialized - 2022-04-03 04:33:18.136943
+INFO:root:rmf9x initialized - 2022-04-03 04:34:08.380655
+INFO:root:rmf9x initialized - 2022-04-03 04:50:03.386343
+INFO:root:rmf9x initialized - 2022-04-03 09:04:43.636068
+INFO:root:rmf9x initialized - 2022-04-03 09:19:30.390116
+INFO:root:rmf9x initialized - 2022-04-03 10:51:37.377104
+INFO:root:rmf9x initialized - 2022-04-03 13:15:24.879274
+INFO:root:rmf9x initialized - 2022-04-03 14:24:47.127019
+INFO:root:rmf9x initialized - 2022-04-03 14:56:17.638919
+INFO:root:rmf9x initialized - 2022-04-03 15:30:38.141312
+INFO:root:rmf9x initialized - 2022-04-03 15:34:18.132148
+INFO:root:rmf9x initialized - 2022-04-03 16:00:33.641114
+INFO:root:rmf9x initialized - 2022-04-03 16:38:38.888440
+INFO:root:rmf9x initialized - 2022-04-03 18:00:39.638915
+INFO:root:rmf9x initialized - 2022-04-03 19:06:18.880409
+INFO:root:rmf9x initialized - 2022-04-03 20:16:48.635144
+INFO:root:rmf9x initialized - 2022-04-03 20:42:04.379236
+INFO:root:rmf9x initialized - 2022-04-03 21:50:20.126136
+INFO:root:rmf9x initialized - 2022-04-03 22:08:45.900353
+INFO:root:rmf9x initialized - 2022-04-03 23:38:10.134466
+INFO:root:rmf9x initialized - 2022-04-03 23:58:42.632868
+INFO:root:rmf9x initialized - 2022-04-04 00:02:54.647683
+INFO:root:rmf9x initialized - 2022-04-04 00:53:41.880359
+INFO:root:rmf9x initialized - 2022-04-04 01:13:04.384237
+INFO:root:rmf9x initialized - 2022-04-04 02:12:58.887141
+INFO:root:rmf9x initialized - 2022-04-04 03:19:48.630314
+INFO:root:rmf9x initialized - 2022-04-04 04:19:56.130014
+INFO:root:rmf9x initialized - 2022-04-04 05:15:47.628121
+INFO:root:rmf9x initialized - 2022-04-04 08:46:19.886976
+INFO:root:rmf9x initialized - 2022-04-04 08:52:19.898063
+INFO:root:rmf9x initialized - 2022-04-04 11:00:12.626879
+INFO:root:rmf9x initialized - 2022-04-04 11:46:33.627795
+INFO:root:rmf9x initialized - 2022-04-04 14:50:23.378777
+INFO:root:rmf9x initialized - 2022-04-04 15:25:59.398649
+INFO:root:rmf9x initialized - 2022-04-04 17:10:43.628421
+INFO:root:rmf9x initialized - 2022-04-04 18:30:02.141966
+INFO:root:rmf9x initialized - 2022-04-04 19:11:20.884298
+INFO:root:rmf9x initialized - 2022-04-04 19:39:46.376288
+INFO:root:rmf9x initialized - 2022-04-04 19:49:30.885424
+INFO:root:rmf9x initialized - 2022-04-04 21:13:39.890541
+INFO:root:rmf9x initialized - 2022-04-04 21:54:58.387386
+INFO:root:rmf9x initialized - 2022-04-04 22:44:28.123033
+INFO:root:rmf9x initialized - 2022-04-04 22:55:45.140440
+INFO:root:rmf9x initialized - 2022-04-04 22:40:15.734200
+INFO:root:cmd 'python3 tests/test.1.py' success 2022-04-04 23:35:08.756665
+INFO:root:cmd 'python3 exploit.py' success 2022-04-04 23:35:32.152193
+INFO:root:rmf9x initialized - 2022-04-04 23:36:30.058381
+INFO:root:rmf9x initialized - 2022-04-04 23:39:18.695401
+INFO:root:rmf9x initialized - 2022-04-04 23:47:58.469314
+INFO:root:rmf9x initialized - 2022-04-04 23:48:56.271058
+INFO:root:cmd 'python3 exploit.py' success 2022-04-04 23:50:47.033041
+INFO:root:cmd 'python3 exploit.py' success 2022-04-04 23:51:29.783077
+INFO:root:rmf9x initialized - 2022-04-05 00:23:13.455633
+INFO:root:cmd 'python3 exploit.py' success 2022-04-05 00:23:45.466118
+ERROR:root:cmd '       ' error: embedded null byte  2022-04-05 00:40:25.617354
+INFO:root:rmf9x initialized - 2022-04-05 00:41:52.031339
+INFO:root:cmd 'ls' success 2022-04-05 00:44:14.599508
+INFO:root:cmd 'python3 tests/test.1.py' success 2022-04-05 00:44:25.638360
+INFO:root:cmd 'python3 tests/test.1.py' success 2022-04-05 00:45:38.607932
+INFO:root:cmd 'python3 exploit.py' success 2022-04-05 00:45:56.524056
+INFO:root:rmf9x initialized - 2022-04-04 23:41:49.034758
+INFO:root:rmf9x initialized - 2022-04-04 23:41:48.872817
+INFO:root:cmd 'python3 tests/test.1.py' success 2022-04-06 23:23:20.897760
+INFO:root:rmf9x initialized - 2022-04-06 23:32:54.896607
+INFO:root:cmd 'python3 tests/test.1.py' success 2022-04-07 00:17:45.225089
+INFO:root:cmd 'python3 tests/test.1.py' success 2022-04-07 00:18:30.106352
+INFO:root:rmf9x initialized - 2022-04-07 00:18:45.527595
+INFO:root:rmf9x initialized - 2022-04-08 00:08:08.751292
+INFO:root:rmf9x initialized - 2022-04-08 00:36:58.746687
+INFO:root:rmf9x initialized - 2022-04-08 02:06:27.494891
+INFO:root:rmf9x initialized - 2022-04-08 03:04:15.499979
+INFO:root:rmf9x initialized - 2022-04-08 04:26:12.750754
+INFO:root:rmf9x initialized - 2022-04-08 04:38:11.002286
+INFO:root:rmf9x initialized - 2022-04-08 05:58:09.501085
+INFO:root:rmf9x initialized - 2022-04-08 06:33:40.250602
+INFO:root:rmf9x initialized - 2022-04-08 08:53:05.244986
+INFO:root:rmf9x initialized - 2022-04-08 09:19:28.742915
+INFO:root:rmf9x initialized - 2022-04-08 09:26:13.498186
+INFO:root:rmf9x initialized - 2022-04-08 09:27:34.991764
+INFO:root:rmf9x initialized - 2022-04-08 09:43:10.494675
+INFO:root:rmf9x initialized - 2022-04-08 11:08:44.989798
+INFO:root:rmf9x initialized - 2022-04-08 11:42:24.996770
+INFO:root:rmf9x initialized - 2022-04-08 14:13:51.493854
+INFO:root:rmf9x initialized - 2022-04-08 15:27:47.010046
+INFO:root:rmf9x initialized - 2022-04-08 18:20:16.268184
+INFO:root:rmf9x initialized - 2022-04-08 18:26:00.770216
+INFO:root:rmf9x initialized - 2022-04-08 18:43:45.772052
+INFO:root:rmf9x initialized - 2022-04-08 20:37:34.528417
+INFO:root:rmf9x initialized - 2022-04-08 21:47:02.761841
+INFO:root:rmf9x initialized - 2022-04-08 23:34:46.268016
+INFO:root:rmf9x initialized - 2022-04-08 23:38:16.267010
+INFO:root:rmf9x initialized - 2022-04-08 23:46:40.019113
+INFO:root:rmf9x initialized - 2022-04-08 23:51:45.770006
+INFO:root:rmf9x initialized - 2022-04-09 00:06:38.266672
+INFO:root:rmf9x initialized - 2022-04-09 02:44:40.019925
+INFO:root:rmf9x initialized - 2022-04-09 03:38:04.015847
+INFO:root:rmf9x initialized - 2022-04-09 05:09:02.772039
+INFO:root:rmf9x initialized - 2022-04-09 05:40:25.270326
+INFO:root:rmf9x initialized - 2022-04-09 06:55:55.764968
+INFO:root:rmf9x initialized - 2022-04-09 07:30:26.017274
+INFO:root:rmf9x initialized - 2022-04-09 08:06:06.010634
+INFO:root:rmf9x initialized - 2022-04-09 08:19:04.763989
+INFO:root:rmf9x initialized - 2022-04-09 08:49:11.263250
+INFO:root:rmf9x initialized - 2022-04-09 09:19:36.764422
+INFO:root:rmf9x initialized - 2022-04-09 10:33:50.764179
+INFO:root:rmf9x initialized - 2022-04-09 11:22:43.272350
+INFO:root:rmf9x initialized - 2022-04-09 13:26:02.261215
+INFO:root:rmf9x initialized - 2022-04-09 14:16:55.268956
+INFO:root:rmf9x initialized - 2022-04-09 15:08:53.015637
+INFO:root:rmf9x initialized - 2022-04-09 15:10:37.511850
+INFO:root:rmf9x initialized - 2022-04-09 15:41:10.262754
+INFO:root:rmf9x initialized - 2022-04-09 19:05:59.773970
+INFO:root:rmf9x initialized - 2022-04-09 19:52:14.023685
+INFO:root:cmd 'python3 tests/test.1.py' success 2022-04-09 19:54:25.499568
+INFO:root:cmd 'python3 test/test.1.pyt' success 2022-04-09 19:54:50.867011
+INFO:root:cmd 'python3 tests/test.1.py' success 2022-04-09 19:55:04.740676
+INFO:root:rmf9x initialized - 2022-04-09 19:55:30.313811
+INFO:root:rmf9x initialized - 2022-04-09 19:57:58.386518
+INFO:root:cmd 'ls' success 2022-04-09 19:58:11.964815
+INFO:root:cmd 'python3 tests/test.1.py' success 2022-04-09 20:00:51.500466
+INFO:root:cmd 'python3 tests/test.1.py' success 2022-04-09 20:02:02.657605
+INFO:root:cmd 'python3 exploit.py' success 2022-04-09 20:04:45.791318
+INFO:root:cmd 'python3 tests/test.1.py' success 2022-04-09 20:07:05.204425
+INFO:root:cmd 'msfrpcd -P password -S' success 2022-04-09 20:07:47.271694
+INFO:root:cmd 'msfrpcd -P password -S' success 2022-04-09 20:11:54.797214
+INFO:root:cmd 'python3 exploit.py' success 2022-04-09 20:12:12.173643
+INFO:root:rmf9x initialized - 2022-04-09 20:33:34.305656
+ERROR:root:cmd 'python3 tests/test.1.py' error: python3 tests/test.1.py staus FAILED  2022-04-09 20:37:51.631669
+ERROR:root:cmd 'msfrpcd -P password -S' error: msfrpcd -P password -S staus FAILED  2022-04-09 20:38:24.935580
+INFO:root:rmf9x initialized - 2022-04-09 20:39:59.671277
+INFO:root:cmd 'python3 tests/test.1.py' success 2022-04-09 20:40:12.216078
+INFO:root:rmf9x initialized - 2022-04-09 20:40:14.574601
+INFO:root:rmf9x initialized - 2022-04-09 20:43:35.989354
+INFO:root:cmd 'python3 tests/test.1.py' success 2022-04-09 20:43:53.043525
+ERROR:root:cmd 'pyth3 test' error: Command 'pyth3 test' returned non-zero exit status 127.  2022-04-09 20:43:58.398177
+INFO:root:rmf9x initialized - 2022-04-09 20:46:10.874905
+ERROR:root:cmd 'pyth3' error: Command 'pyth3' returned non-zero exit status 127.  2022-04-09 20:46:14.405220
+INFO:root:rmf9x initialized - 2022-04-09 20:47:03.088068
+INFO:root:cmd 'python3 tests/test.1.py' success 2022-04-09 20:47:19.764172
+ERROR:root:cmd 'fhuweoq' error: Command 'fhuweoq' returned non-zero exit status 127.  2022-04-09 20:48:22.822615
+INFO:root:cmd 'python3 tests/test.1.py' success 2022-04-09 20:48:34.825669
+INFO:root:cmd 'python3 tests/test.1.py' success 2022-04-09 20:49:07.089273
+ERROR:root:cmd 'python3 tests/mispelled_test.yp' error: Command 'python3 tests/mispelled_test.yp' returned non-zero exit status 2.  2022-04-09 20:49:22.021103
+INFO:root:cmd 'msfrpcd -P password -S' success 2022-04-09 20:49:58.897606
+ERROR:root:cmd 'python3 exploit.py' error: Command 'python3 exploit.py' returned non-zero exit status 1.  2022-04-09 20:50:10.027274
+INFO:root:rmf9x initialized - 2022-04-09 22:49:28.558243
+INFO:root:rmf9x initialized - 2022-04-09 22:57:13.554399
+INFO:root:rmf9x initialized - 2022-04-09 23:42:43.544246
+INFO:root:rmf9x initialized - 2022-04-10 00:53:53.305910
+INFO:root:rmf9x initialized - 2022-04-10 02:24:34.303119
+INFO:root:rmf9x initialized - 2022-04-10 05:25:14.556248
+INFO:root:rmf9x initialized - 2022-04-10 07:29:27.304904
+INFO:root:rmf9x initialized - 2022-04-10 07:37:49.061056
+INFO:root:rmf9x initialized - 2022-04-10 08:47:20.304688
+INFO:root:rmf9x initialized - 2022-04-10 09:00:04.053911
+INFO:root:rmf9x initialized - 2022-04-10 10:03:10.321139
+INFO:root:rmf9x initialized - 2022-04-10 12:05:14.807004
+INFO:root:rmf9x initialized - 2022-04-10 12:52:10.317549
+INFO:root:rmf9x initialized - 2022-04-10 13:01:40.811387
+INFO:root:rmf9x initialized - 2022-04-10 13:33:11.553763
+INFO:root:rmf9x initialized - 2022-04-10 17:23:36.055275
+INFO:root:rmf9x initialized - 2022-04-10 18:24:51.062839
+INFO:root:rmf9x initialized - 2022-04-10 19:25:35.804244
+INFO:root:rmf9x initialized - 2022-04-10 20:04:34.307149
+INFO:root:rmf9x initialized - 2022-04-10 21:30:37.065821
+INFO:root:rmf9x initialized - 2022-04-10 21:43:32.314825
+INFO:root:rmf9x initialized - 2022-04-10 22:47:06.056352
+INFO:root:rmf9x initialized - 2022-04-10 22:48:31.054505
+INFO:root:rmf9x initialized - 2022-04-10 23:57:56.809803
+INFO:root:rmf9x initialized - 2022-04-11 00:29:53.552752
+INFO:root:rmf9x initialized - 2022-04-11 00:34:06.553164
+INFO:root:rmf9x initialized - 2022-04-11 00:45:54.556917
+INFO:root:rmf9x initialized - 2022-04-11 01:06:46.552448
+INFO:root:rmf9x initialized - 2022-04-11 02:34:28.569732
+INFO:root:rmf9x initialized - 2022-04-11 05:16:19.305640
+INFO:root:rmf9x initialized - 2022-04-11 05:55:55.057112
+INFO:root:rmf9x initialized - 2022-04-11 06:36:29.055132
+INFO:root:rmf9x initialized - 2022-04-11 07:38:56.300319
+INFO:root:rmf9x initialized - 2022-04-11 08:10:43.056532
+INFO:root:rmf9x initialized - 2022-04-11 08:13:22.559090
+INFO:root:rmf9x initialized - 2022-04-11 10:34:10.308708
+INFO:root:rmf9x initialized - 2022-04-11 10:53:30.314883
+INFO:root:rmf9x initialized - 2022-04-11 12:14:15.552454
+INFO:root:rmf9x initialized - 2022-04-11 12:23:42.065705
+INFO:root:rmf9x initialized - 2022-04-11 15:05:37.803765
+INFO:root:rmf9x initialized - 2022-04-11 16:51:14.828003
+INFO:root:rmf9x initialized - 2022-04-11 16:59:55.814224
+INFO:root:rmf9x initialized - 2022-04-11 19:57:30.811729
+INFO:root:rmf9x initialized - 2022-04-11 20:12:55.797223
+INFO:root:rmf9x initialized - 2022-04-11 20:17:34.309749
+INFO:root:rmf9x initialized - 2022-04-11 21:15:15.309288
+INFO:root:rmf9x initialized - 2022-04-11 21:41:56.805526
+INFO:root:rmf9x initialized - 2022-04-11 22:38:35.558493
+INFO:root:rmf9x initialized - 2022-04-11 22:40:15.556657
+INFO:root:rmf9x initialized - 2022-04-12 00:05:51.805639
+INFO:root:rmf9x initialized - 2022-04-12 00:54:14.570588
+INFO:root:rmf9x initialized - 2022-04-12 01:11:21.308936
+INFO:root:rmf9x initialized - 2022-04-12 01:33:42.053335
+INFO:root:rmf9x initialized - 2022-04-12 02:13:11.305956
+INFO:root:rmf9x initialized - 2022-04-12 02:20:43.568011
+INFO:root:rmf9x initialized - 2022-04-12 02:25:59.058211
+INFO:root:rmf9x initialized - 2022-04-12 04:21:35.551241
+INFO:root:rmf9x initialized - 2022-04-12 06:51:29.068478
+INFO:root:rmf9x initialized - 2022-04-12 07:28:07.806607
+INFO:root:rmf9x initialized - 2022-04-12 08:21:50.307225
+INFO:root:rmf9x initialized - 2022-04-12 09:35:04.815440
+INFO:root:rmf9x initialized - 2022-04-12 12:27:52.557867
+INFO:root:rmf9x initialized - 2022-04-12 12:41:25.059656
+INFO:root:rmf9x initialized - 2022-04-12 13:11:19.568138
+INFO:root:rmf9x initialized - 2022-04-12 13:31:46.303392
+INFO:root:rmf9x initialized - 2022-04-12 13:45:07.805134
+INFO:root:rmf9x initialized - 2022-04-12 14:07:25.555379
+INFO:root:rmf9x initialized - 2022-04-12 15:38:26.806796
+INFO:root:rmf9x initialized - 2022-04-12 15:44:17.305317
+INFO:root:rmf9x initialized - 2022-04-12 17:52:55.054167
+INFO:root:rmf9x initialized - 2022-04-12 18:42:44.804993
+INFO:root:rmf9x initialized - 2022-04-12 20:22:35.806671
+INFO:root:rmf9x initialized - 2022-04-12 20:47:45.304692
+INFO:root:rmf9x initialized - 2022-04-12 21:40:17.058116
+INFO:root:rmf9x initialized - 2022-04-12 23:26:28.545235
+INFO:root:rmf9x initialized - 2022-04-12 23:43:13.056413
+INFO:root:rmf9x initialized - 2022-04-13 00:05:39.053833
+INFO:root:rmf9x initialized - 2022-04-13 00:14:58.071127
+INFO:root:rmf9x initialized - 2022-04-13 00:32:55.552695
+INFO:root:rmf9x initialized - 2022-04-13 00:37:26.299217
+INFO:root:rmf9x initialized - 2022-04-13 00:40:23.807459
+INFO:root:rmf9x initialized - 2022-04-13 04:03:57.312417
+INFO:root:rmf9x initialized - 2022-04-13 04:10:45.063059
+INFO:root:rmf9x initialized - 2022-04-13 05:46:09.552016
+INFO:root:rmf9x initialized - 2022-04-13 05:53:59.805993
+INFO:root:rmf9x initialized - 2022-04-13 07:23:23.804026
+INFO:root:rmf9x initialized - 2022-04-13 07:39:21.564030
+INFO:root:rmf9x initialized - 2022-04-13 09:01:13.805728
+INFO:root:rmf9x initialized - 2022-04-13 10:38:51.561286
+INFO:root:rmf9x initialized - 2022-04-13 10:59:49.800328
+INFO:root:rmf9x initialized - 2022-04-13 12:26:44.552817
+INFO:root:rmf9x initialized - 2022-04-13 13:25:36.073658
+INFO:root:rmf9x initialized - 2022-04-13 13:52:09.308424
+INFO:root:rmf9x initialized - 2022-04-13 15:50:47.562071
+INFO:root:rmf9x initialized - 2022-04-13 18:57:51.560028
+INFO:root:rmf9x initialized - 2022-04-13 19:12:46.810679
+INFO:root:rmf9x initialized - 2022-04-13 20:06:19.554115
+INFO:root:rmf9x initialized - 2022-04-13 20:27:53.296922
+INFO:root:rmf9x initialized - 2022-04-13 22:05:54.062458
+INFO:root:rmf9x initialized - 2022-04-13 22:36:52.554851
+INFO:root:rmf9x initialized - 2022-04-14 02:26:30.303414
+INFO:root:rmf9x initialized - 2022-04-14 07:42:06.306053
+INFO:root:rmf9x initialized - 2022-04-14 09:28:11.054130
+INFO:root:rmf9x initialized - 2022-04-14 11:45:11.059062
+INFO:root:rmf9x initialized - 2022-04-14 13:28:34.554544
+INFO:root:rmf9x initialized - 2022-04-14 15:27:29.806980
+INFO:root:rmf9x initialized - 2022-04-14 16:02:28.555202
+INFO:root:rmf9x initialized - 2022-04-14 17:14:43.045490
+INFO:root:rmf9x initialized - 2022-04-14 18:08:51.303127
+INFO:root:rmf9x initialized - 2022-04-14 20:21:32.556303
+INFO:root:rmf9x initialized - 2022-04-14 22:08:33.303615
+INFO:root:rmf9x initialized - 2022-04-14 22:52:50.550997
+INFO:root:rmf9x initialized - 2022-04-14 23:45:22.810583
+INFO:root:rmf9x initialized - 2022-04-15 01:14:12.555177
+INFO:root:rmf9x initialized - 2022-04-15 02:07:07.554573
+INFO:root:rmf9x initialized - 2022-04-09 20:34:27.124945
+INFO:root:cmd 'python3 tests/test.1.py' success 2022-04-19 13:33:32.210916
+ERROR:root:cmd 'error somethingawsfesedfwsf' error: Command 'error somethingawsfesedfwsf' returned non-zero exit status 127.  2022-04-19 13:33:37.756286
+INFO:root:cmd 'python3 tests/test.1.py' success 2022-04-19 13:33:50.016259
+INFO:root:rmf9x initialized - 2022-04-19 13:33:23.039113
+INFO:root:cmd 'python3 tests/test.1.py' success 2022-04-19 13:37:03.948037
+ERROR:root:cmd 'u oiyhgb7y9ib tyg7 v0' error: Command 'u oiyhgb7y9ib tyg7 v0' returned non-zero exit status 127.  2022-04-19 13:41:00.413371
+INFO:root:cmd 'python3 tests/test.1.py' success 2022-04-19 13:41:16.725011
+INFO:root:rmf9x initialized - 2022-04-19 13:45:25.248018
+INFO:root:cmd 'python3 tests/test.1.py' success 2022-04-19 13:51:01.556800
+INFO:root:cmd 'python3 tests/test.1.py' success 2022-04-19 13:57:56.160404
+ERROR:root:cmd 'rftyukrdtuyol' error: Command 'rftyukrdtuyol' returned non-zero exit status 127.  2022-04-19 13:57:58.128410
+INFO:root:cmd 'python3 tests/test.1.py' success 2022-04-19 14:02:04.849954
+INFO:root:rmf9x initialized - 2022-04-19 14:32:54.242737
+INFO:root:cmd 'python3 tests/test.1.py' success 2022-04-19 14:42:10.811763
+ERROR:root:cmd 'cfyutkftuk' error: Command 'cfyutkftuk' returned non-zero exit status 127.  2022-04-19 14:42:13.665268
+INFO:root:cmd 'python3 tests/test.1.py' success 2022-04-19 14:47:15.594431
+INFO:root:cmd 'python3 tests/test.1.py' success 2022-04-19 14:49:53.087512
+INFO:root:cmd 'python3 tests/test.1.py' success 2022-04-19 15:11:30.583172
+ERROR:root:cmd 'ikgfh9kihgfi9klhf' error: Command 'ikgfh9kihgfi9klhf' returned non-zero exit status 127.  2022-04-19 15:32:25.688663
+INFO:root:cmd 'python3 tests/test.1.py' success 2022-04-19 15:32:46.118526
+INFO:root:cmd 'python3 tests/test.1.py' success 2022-04-19 15:47:03.333479
+ERROR:root:cmd 'uihggiuhld' error: Command 'uihggiuhld' returned non-zero exit status 127.  2022-04-19 15:47:18.208605
+INFO:root:cmd 'python3 tests/test.1.py' success 2022-04-19 15:48:37.437264
+INFO:root:rmf9x initialized - 2022-04-19 15:59:56.985987
+INFO:root:rmf9x initialized - 2022-04-19 13:33:22.786317
+INFO:root:cmd 'python3 tests/test.1.py' success 2022-05-06 13:58:18.826370
+ERROR:root:cmd 'python3 exploit.py' error: Command 'python3 exploit.py' returned non-zero exit status 1.  2022-05-06 14:13:27.158727
+ERROR:root:cmd 'sudo python3 exploit.py' error: Command 'sudo python3 exploit.py' returned non-zero exit status 1.  2022-05-06 14:13:46.976564
+INFO:root:rmf9x initialized - 2022-05-06 14:17:18.999499
+ERROR:root:cmd 'python3 exploit.py' error: Command 'python3 exploit.py' returned non-zero exit status 1.  2022-05-06 14:17:34.046256
+INFO:root:cmd 'msfrpcd -P password -S' success 2022-05-06 14:19:42.689359
+ERROR:root:cmd 'python3 exploit.py' error: Command 'python3 exploit.py' returned non-zero exit status 1.  2022-05-06 14:20:00.830662
+INFO:root:cmd 'python3 exploit.py' success 2022-05-06 14:23:45.802469
+INFO:root:cmd 'python3 exploit.py' success 2022-05-06 14:26:40.673998
+INFO:root:cmd 'python3 exploit.py' success 2022-05-06 14:28:05.577643
+INFO:root:rmf9x initialized - 2022-05-06 13:50:14.807161
+INFO:root:cmd 'python3 tests/test.1.py' success 2022-05-06 13:54:19.606070
+INFO:root:cmd 'msfrpcd -P password -S' success 2022-05-06 13:57:26.546257
+ERROR:root:cmd 'python3 exploit.py' error: Command 'python3 exploit.py' returned non-zero exit status 1.  2022-05-06 13:57:42.936829
+INFO:root:cmd 'python3 exploit.py' success 2022-05-06 13:58:28.770376
+INFO:root:cmd 'python3 exploit.py' success 2022-05-06 14:22:33.281355
+INFO:root:cmd 'python3 exploit.py' success 2022-05-06 14:40:02.502573
+INFO:root:cmd 'python3 exploit.py' success 2022-05-06 14:57:55.360477
+INFO:root:cmd 'python3 exploit.py' success 2022-05-06 15:03:02.428183
+INFO:root:cmd 'python3 exploit.py' success 2022-05-06 15:34:52.982636
+INFO:root:cmd 'python3 tests/test.1.py' success 2022-05-06 15:39:52.033110
+ERROR:root:cmd 'ftrkufctyl' error: Command 'ftrkufctyl' returned non-zero exit status 127.  2022-05-06 15:39:53.401178
+ERROR:root:cmd 'hjkl' error: Command 'hjkl' returned non-zero exit status 127.  2022-05-06 15:50:43.141667
+INFO:root:cmd 'ls' success 2022-05-06 15:50:54.609472
+INFO:root:rmf9x initialized - 2022-05-06 13:50:14.961604
