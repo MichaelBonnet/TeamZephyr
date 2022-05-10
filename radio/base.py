@@ -23,9 +23,9 @@ def main():
     while sending != "quit":
         sending = input("[BASE]: ")
         rfm9x.send_with_ack(sending.encode("utf-8"))
-        recv = rfm9x.receive(with_ack=True, timeout=10)
+        recv = rfm9x.receive(with_ack=True, timeout=90)
         recv = str(recv, "utf-8") if recv != None else ""
-        print(f"> {recv}\n") 
+        print(f"> {recv}") 
 
 if __name__ == "__main__":
     main()
